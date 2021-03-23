@@ -48,7 +48,7 @@ extension TestView {
 // MARK: Private
 private extension TestView {
     func initialize() {
-        backgroundColor = UIColor(integralRed: 252, green: 249, blue: 249)
+        backgroundColor = UIColor(integralRed: 252, green: 250, blue: 242)
     }
     
     static let buttonAttr = TextAttributes()
@@ -119,7 +119,7 @@ private extension TestView {
     
     func makeProgressView() -> UIProgressView {
         let view = UIProgressView()
-        let color = UIColor(integralRed: 237, green: 86, blue: 114)
+        let color = UIColor(integralRed: 255, green: 115, blue: 99)
         view.trackTintColor = color.withAlphaComponent(0.3)
         view.progressTintColor = color
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -140,7 +140,7 @@ private extension TestView {
         let view = UIButton()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.layer.cornerRadius = 30.scale
-        view.backgroundColor = UIColor(integralRed: 237, green: 86, blue: 114)
+        view.backgroundColor = UIColor(integralRed: 255, green: 115, blue: 99)
         addSubview(view)
         return view
     }

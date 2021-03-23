@@ -124,8 +124,8 @@ private extension OSlide8View {
         let view = UISlider()
         view.minimumValue = 1
         view.maximumValue = 7
-        view.minimumTrackTintColor = UIColor(integralRed: 237, green: 86, blue: 114)
-        view.maximumTrackTintColor = UIColor(integralRed: 237, green: 86, blue: 114, alpha: 0.3)
+        view.minimumTrackTintColor = UIColor(integralRed: 255, green: 115, blue: 99)
+        view.maximumTrackTintColor = UIColor(integralRed: 255, green: 115, blue: 99, alpha: 0.3)
         view.addTarget(self, action: #selector(update(sender:)), for: .valueChanged)
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
@@ -140,7 +140,7 @@ private extension OSlide8View {
             .textAlignment(.center)
         
         let view = UIButton()
-        view.backgroundColor = UIColor(integralRed: 237, green: 86, blue: 114)
+        view.backgroundColor = UIColor(integralRed: 255, green: 115, blue: 99)
         view.layer.cornerRadius = 30.scale
         view.setAttributedTitle("Onboarding.Proceed".localized.attributed(with: attrs), for: .normal)
         view.addTarget(self, action: #selector(onNext), for: .touchUpInside)

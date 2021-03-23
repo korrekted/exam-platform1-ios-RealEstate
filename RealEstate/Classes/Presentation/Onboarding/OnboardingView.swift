@@ -77,7 +77,7 @@ extension OnboardingView: OSlideViewDelegate {
 // MARK: Private
 private extension OnboardingView {
     func initialize() {
-        backgroundColor = UIColor(integralRed: 252, green: 249, blue: 249)
+        backgroundColor = UIColor(integralRed: 252, green: 250, blue: 242)
         
         contentViews
             .enumerated()

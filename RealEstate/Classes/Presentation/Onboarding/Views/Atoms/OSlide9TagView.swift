@@ -30,7 +30,7 @@ final class OSlide9TagView: CircleView {
 // MARK: Private
 private extension OSlide9TagView {
     func update() {
-        backgroundColor = isSelected ? UIColor(integralRed: 237, green: 86, blue: 114) : UIColor.white
+        backgroundColor = isSelected ? UIColor(integralRed: 255, green: 115, blue: 99) : UIColor.white
         label.textColor = isSelected ? UIColor.white : UIColor.black
     }
 }

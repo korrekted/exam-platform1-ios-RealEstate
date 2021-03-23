@@ -22,7 +22,7 @@
 // MARK: Splash
 "Splash.Title.Part1" = "Preferred by\n";
 "Splash.Title.Part2" = "20 THOUSAND\n";
-"Splash.Title.Part3" = "US students";
+"Splash.Title.Part3" = "US experts";
 
 // MARK: Onboarding
 "Onboarding.Skip" = "Skip";
@@ -47,28 +47,28 @@
 "Onboarding.Slide6.Cell1" = "Novice";
 "Onboarding.Slide6.Cell2" = "Intermediate";
 "Onboarding.Slide6.Cell3" = "Advanced";
-"Onboarding.Slide6.Cell4" = "Licensed expert";
+"Onboarding.Slide6.Cell4" = "Licensed salesperson";
 "Onboarding.Slide6.Cell5" = "Expert";
 "Onboarding.Slide7.Title" = "HOW MUCH TIME CAN YOU SPEND ON A TEST?";
 "Onboarding.Slide7.Min" = "min";
 "Onboarding.Slide8.Title" = "HOW MANY TESTS WOULD YOU WANT TO TAKE DAILY?";
 "Onboarding.Slide9.Title" = "WHERE DO YOU NEED TO IMPROVE THE MOST?";
-"Onboarding.Slide9.Tag1" = "Advanced\nmathematics";
-"Onboarding.Slide9.Tag2" = "Science";
-"Onboarding.Slide9.Tag3" = "Read-\ning";
-"Onboarding.Slide9.Tag4" = "Biology";
-"Onboarding.Slide9.Tag5" = "Chemistry";
-"Onboarding.Slide9.Tag6" = "Anatomy\nand\nPhysiology";
-"Onboarding.Slide9.Tag7" = "English\nLanguage\nUsage";
-"Onboarding.Slide9.Tag8" = "Physics";
+"Onboarding.Slide9.Tag1" = "Self\nsustainability";
+"Onboarding.Slide9.Tag2" = "Loans";
+"Onboarding.Slide9.Tag3" = "FICO\nscores";
+"Onboarding.Slide9.Tag4" = "Lease";
+"Onboarding.Slide9.Tag5" = "FHA\ninspection";
+"Onboarding.Slide9.Tag6" = "Mortgage\nmarket";
+"Onboarding.Slide9.Tag7" = "Lending\nmarket";
+"Onboarding.Slide9.Tag8" = "Nego-\ntiations";
 "Onboarding.Slide10.Title" = "Do you agree with the statement?";
-"Onboarding.Slide10.Question" = "I think the existing education system needs to be reviewed all over again.";
+"Onboarding.Slide10.Question" = "When you work in sales, developing negotiation skills and strategies is, well, non-negotiable";
 "Onboarding.Slide11.Title" = "Do you agree with the statement?";
-"Onboarding.Slide11.Question" = "I believe a theory course represents only a tiny part of what I'll encounter in reality.";
+"Onboarding.Slide11.Question" = "Buyers usually come to the negotiating table armed with knowledge and research";
 "Onboarding.Slide12.Title" = "Do you agree with the statement?";
-"Onboarding.Slide12.Question" = "I think the educational system should adapt to the students.";
+"Onboarding.Slide12.Question" = "Many mortgage lenders have significantly cut their offerings this year due to the COVID-19";
 "Onboarding.Slide13.Title" = "Do you agree with the statement?";
-"Onboarding.Slide13.Question" = " The current form of education is too long and most subjects are simply irrelevant.";
+"Onboarding.Slide13.Question" = "An agent is responsible for developing creative MLS listings to attract the right buyers";
 "Onboarding.Slide14.Title" = "PREPARING YOUR INDIVIDUAL STUDY PLAN";
 "Onboarding.Slide14.Preloader1" = "Analyzing your goals...";
 "Onboarding.Slide14.Preloader2" = "Analyzing your skill level...";

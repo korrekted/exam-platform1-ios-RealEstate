@@ -101,7 +101,7 @@ private extension STCourseCell {
     
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
-            .textColor(UIColor(integralRed: 237, green: 86, blue: 114))
+            .textColor(UIColor(integralRed: 255, green: 115, blue: 99))
             .font(Fonts.SFProRounded.regular(size: 13.scale))
             .lineHeight(20.scale)
             .letterSpacing(-0.24.scale)

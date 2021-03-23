@@ -67,7 +67,7 @@ private extension ExplanationCell {
         let view = UILabel()
         let attr = TextAttributes()
             .font(Fonts.SFProRounded.bold(size: 17.scale))
-            .textColor(UIColor(integralRed: 237, green: 86, blue: 114))
+            .textColor(UIColor(integralRed: 255, green: 115, blue: 99))
             .lineHeight(20.scale)
         
         view.attributedText = "Question.Explanation".localized.attributed(with: attr)
