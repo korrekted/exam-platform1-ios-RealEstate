@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		963C3A10260A6614003729CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963C3A0F260A6614003729CC /* Assets.xcassets */; };
-		963C3A4D260A6BB7003729CC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 963C3A4C260A6BB7003729CC /* Localizable.strings */; };
 		963C3B64260A6BF5003729CC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963C3A53260A6BF5003729CC /* UIColorExtension.swift */; };
 		963C3B65260A6BF5003729CC /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963C3A54260A6BF5003729CC /* Collection+Extension.swift */; };
 		963C3B66260A6BF5003729CC /* UITapGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963C3A55260A6BF5003729CC /* UITapGestureRecognizerExtension.swift */; };
@@ -215,6 +214,7 @@
 		963C3C37260A6C0A003729CC /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 963C3C34260A6C0A003729CC /* SF-Pro-Rounded-Regular.otf */; };
 		963C3C38260A6C0A003729CC /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 963C3C35260A6C0A003729CC /* SF-Pro-Rounded-Bold.otf */; };
 		963C3C3E260A6C9A003729CC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 963C3C3D260A6C9A003729CC /* Onboarding.Chart.json */; };
+		964C0193260A80D50080B9DC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 964C0195260A80D50080B9DC /* Localizable.strings */; };
 		DD3F0BF67EA5D962459ED9DB /* Pods_RealEstate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD2B33F2E09FF5A6E369DB1 /* Pods_RealEstate.framework */; };
 /* End PBXBuildFile section */
 
@@ -224,7 +224,6 @@
 		963C3A0F260A6614003729CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		963C3A14260A6614003729CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963C3A48260A6B65003729CC /* RealEstate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealEstate-Bridging-Header.h"; sourceTree = "<group>"; };
-		963C3A4C260A6BB7003729CC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		963C3A53260A6BF5003729CC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		963C3A54260A6BF5003729CC /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		963C3A55260A6BF5003729CC /* UITapGestureRecognizerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITapGestureRecognizerExtension.swift; sourceTree = "<group>"; };
@@ -431,6 +430,7 @@
 		963C3C34260A6C0A003729CC /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
 		963C3C35260A6C0A003729CC /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
 		963C3C3D260A6C9A003729CC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
+		964C0194260A80D50080B9DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C95CE79EE3963B5DF9CB2298 /* Pods-RealEstate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstate.debug.xcconfig"; path = "Target Support Files/Pods-RealEstate/Pods-RealEstate.debug.xcconfig"; sourceTree = "<group>"; };
 		DC5CCCEA5D16765B221E60A8 /* Pods-RealEstate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstate.release.xcconfig"; path = "Target Support Files/Pods-RealEstate/Pods-RealEstate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -498,7 +498,7 @@
 		963C3A4B260A6BA6003729CC /* Strings */ = {
 			isa = PBXGroup;
 			children = (
-				963C3A4C260A6BB7003729CC /* Localizable.strings */,
+				964C0195260A80D50080B9DC /* Localizable.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -1385,7 +1385,7 @@
 				963C3C3E260A6C9A003729CC /* Onboarding.Chart.json in Resources */,
 				963C3C30260A6C02003729CC /* LaunchScreen.storyboard in Resources */,
 				963C3A10260A6614003729CC /* Assets.xcassets in Resources */,
-				963C3A4D260A6BB7003729CC /* Localizable.strings in Resources */,
+				964C0193260A80D50080B9DC /* Localizable.strings in Resources */,
 				963C3C36260A6C0A003729CC /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				963C3C38260A6C0A003729CC /* SF-Pro-Rounded-Bold.otf in Resources */,
 				963C3C37260A6C0A003729CC /* SF-Pro-Rounded-Regular.otf in Resources */,
@@ -1647,6 +1647,17 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		964C0195260A80D50080B9DC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964C0194260A80D50080B9DC /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		963C3A15260A6614003729CC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1772,6 +1783,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/RealEstate/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1779,7 +1791,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = exam.realestate;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.realty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "RealEstate Development";
 				SWIFT_OBJC_BRIDGING_HEADER = "RealEstate/Resource/RealEstate-Bridging-Header.h";
@@ -1796,6 +1809,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/RealEstate/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1803,7 +1817,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = exam.realestate;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.realty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "RealEstate AppStore";
 				SWIFT_OBJC_BRIDGING_HEADER = "RealEstate/Resource/RealEstate-Bridging-Header.h";
