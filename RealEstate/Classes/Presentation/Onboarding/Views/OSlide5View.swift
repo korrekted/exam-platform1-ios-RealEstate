@@ -85,18 +85,23 @@ private extension OSlide5View {
         return view
     }
     
-    func makeDatePickerView() -> PIDatePicker {
+    func makeDatePickerView() -> UIDatePicker {
         let minimumDate = Calendar.current.date(byAdding: .day, value: 6, to: Date()) ?? Date()
         
         let startDate = Calendar.current.date(byAdding: .day, value: 7, to: Date()) ?? Date()
         
-        let view = PIDatePicker()
+        let view = UIDatePicker()
+        view.datePickerMode = .date
         view.backgroundColor = UIColor.clear
         view.minimumDate = minimumDate
-        view.setDate(startDate, animated: true)
+        view.date = startDate
         view.locale = Locale.current
-        view.textColor = UIColor(integralRed: 255, green: 115, blue: 99)
-        view.font = Fonts.SFProRounded.bold(size: 27.scale)
+        if #available(iOS 13.4, *) {
+            view.preferredDatePickerStyle = .wheels
+        }
+        view.setValue(UIColor(integralRed: 255, green: 115, blue: 99), forKeyPath: "textColor")
+        view.datePickerMode = .countDownTimer
+        view.datePickerMode = .date
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view
