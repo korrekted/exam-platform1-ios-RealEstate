@@ -51,14 +51,14 @@ private extension OProgressView {
         circleLayer.fillColor = UIColor.clear.cgColor
         circleLayer.lineCap = .round
         circleLayer.lineWidth = 15.scale
-        circleLayer.strokeColor = UIColor(integralRed: 237, green: 86, blue: 114, alpha: 0.3).cgColor
+        circleLayer.strokeColor = Appearance.mainColorAlpha.cgColor
         
         progressLayer.path = circularPath.cgPath
         progressLayer.fillColor = UIColor.clear.cgColor
         progressLayer.lineCap = .round
         progressLayer.lineWidth = 15.scale
         progressLayer.strokeEnd = 0
-        progressLayer.strokeColor = UIColor(integralRed: 255, green: 115, blue: 99).cgColor
+        progressLayer.strokeColor = Appearance.mainColor.cgColor
 
         layer.addSublayer(circleLayer)
         layer.addSublayer(progressLayer)

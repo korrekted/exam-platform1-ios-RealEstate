@@ -28,7 +28,7 @@ class TestStatsView: UIView {
 // MARK: Private
 private extension TestStatsView {
     func initialize() {
-        backgroundColor = UIColor(integralRed: 252, green: 250, blue: 242)
+        backgroundColor = Appearance.backgroundColor
     }
 }
 

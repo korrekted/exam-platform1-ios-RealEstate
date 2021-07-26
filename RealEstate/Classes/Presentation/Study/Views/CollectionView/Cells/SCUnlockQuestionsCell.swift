@@ -56,7 +56,7 @@ private extension SCUnlockQuestionsCell {
         let view = UIButton()
         view.isUserInteractionEnabled = false
         view.layer.cornerRadius = 30.scale
-        view.backgroundColor = UIColor(integralRed: 255, green: 115, blue: 99)
+        view.backgroundColor = Appearance.mainColor
         view.setAttributedTitle("Study.UnlockQuestions".localized.attributed(with: attrs), for: .normal)
         view.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(view)
